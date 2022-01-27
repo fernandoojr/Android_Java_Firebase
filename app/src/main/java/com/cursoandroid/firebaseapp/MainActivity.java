@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //teste
         DatabaseReference usuarios = referencia.child("usuarios");
         Usuario usuario = new Usuario();
         usuario.setNome("Marcia");
